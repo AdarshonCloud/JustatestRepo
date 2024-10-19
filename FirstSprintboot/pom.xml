@@ -49,16 +49,17 @@
 	</dependencies>
 
 	<build>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+				<configuration>    
+                		<mainClass>com.SpringBoot.FirstSprintboot.FirstSprintbootApplication</mainClass>
+            			</configuration>
+			</plugin>	
 		</plugins>
 	</build>
 	
-	<configuration>    
-                <mainClass>com.SpringBoot.FirstSprintboot.FirstSprintbootApplication</mainClass>
-            </configuration>
 
 </project>
